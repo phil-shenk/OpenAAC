@@ -1,8 +1,11 @@
 package com.openaac.openaac;
 
 import android.os.Bundle;
+import android.speech.tts.TextToSpeech;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+
+import java.util.Locale;
 
 public class IFeelMenu extends AppCompatActivity {
 
@@ -13,6 +16,6 @@ public class IFeelMenu extends AppCompatActivity {
     }
 
     public void buttonPress(View v){
-
+        Speech2.addWordToQueue("tortoise");
     }
 }

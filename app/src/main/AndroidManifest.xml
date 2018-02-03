@@ -9,16 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        android:screenOrientation="portrait"
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ShopMenu"></activity>
-        <activity android:name=".IWantMenu"></activity>
-        <activity android:name=".IFeelMenu"></activity>
-        <activity android:name=".WordsMenu"></activity>
+        <activity android:name=".ShopMenu" />
+        <activity android:name=".IWantMenu" />
+        <activity android:name=".IFeelMenu" />
+        <activity android:name=".WordsMenu" />
 
     </application>
 
