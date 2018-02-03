@@ -24,16 +24,16 @@ public class MainActivity extends AppCompatActivity {
         Log.d("msg", v.getTag().toString());
         Intent intent;
         switch(v.getTag().toString()){
-            case "burger":
-                intent = new Intent(this, BurgerMenu.class);
-                break;
             case "cheese":
                 intent = new Intent(this, CheeseMenu.class);
+                break;
+            case "burger":
+                intent = new Intent(this, BurgerMenu.class);
                 break;
             default:
                 intent = new Intent(this, MainActivity.class);
         }
-        intent = new Intent(this, MainActivity.class);
+
         //EditText editText = (EditText) findViewById(R.id.editText);
         //String message = editText.getText().toString();
         //intent.putExtra(EXTRA_MESSAGE, "TEST");
