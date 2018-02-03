@@ -1,5 +1,6 @@
 package com.openaac.openaac;
 
+import android.content.Intent;
 import android.speech.tts.TextToSpeech;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -14,8 +15,8 @@ public class IWantMenu extends AppCompatActivity {
     }
 
     public void buttonPress(View v){
-        Speech2.addWordToQueue("I would like a tomato");
-        Speech2.tts.speak(Speech2.words, TextToSpeech.QUEUE_ADD, null);
-        Speech2.words = "";
+        Speech2.addWordToQueue(v.getTag().toString());
+        Speech2.sayQueue();
+        startActivity(new Intent(this, MainActivity.class));
     }
 }

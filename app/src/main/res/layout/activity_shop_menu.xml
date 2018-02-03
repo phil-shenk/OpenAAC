@@ -8,7 +8,7 @@
 
     <ImageButton
         android:id="@+id/imageButton1"
-        android:tag="1"
+        android:tag="fruits and vegetables"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="buttonPress"
@@ -17,11 +17,11 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/burger" />
+        app:srcCompat="@drawable/fruitvegetables" />
 
     <ImageButton
         android:id="@+id/imageButton3"
-        android:tag="3"
+        android:tag="dairy"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="buttonPress"
@@ -30,11 +30,11 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/imageButton2"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/burger" />
+        app:srcCompat="@drawable/dairy" />
 
     <ImageButton
         android:id="@+id/imageButton7"
-        android:tag="7"
+        android:tag="breakfast foods"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="buttonPress"
@@ -43,11 +43,11 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageButton4"
-        app:srcCompat="@drawable/burger" />
+        app:srcCompat="@drawable/breakfast_foods_1" />
 
     <ImageButton
         android:id="@+id/imageButton6"
-        android:tag="6"
+        android:tag="frozen foods"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="buttonPress"
@@ -56,11 +56,11 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/imageButton5"
         app:layout_constraintTop_toBottomOf="@+id/imageButton3"
-        app:srcCompat="@drawable/burger" />
+        app:srcCompat="@drawable/frozen_food_1" />
 
     <ImageButton
         android:id="@+id/imageButton2"
-        android:tag="2"
+        android:tag="meat and deli"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="buttonPress"
@@ -69,11 +69,11 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/imageButton1"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/burger" />
+        app:srcCompat="@drawable/meatdeli" />
 
     <ImageButton
         android:id="@+id/imageButton4"
-        android:tag="4"
+        android:tag="bread and bakery"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="buttonPress"
@@ -82,11 +82,11 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageButton1"
-        app:srcCompat="@drawable/burger" />
+        app:srcCompat="@drawable/breadbakery" />
 
     <ImageButton
         android:id="@+id/imageButton9"
-        android:tag="9"
+        android:tag="personal care"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="buttonPress"
@@ -95,11 +95,11 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/imageButton8"
         app:layout_constraintTop_toBottomOf="@+id/imageButton6"
-        app:srcCompat="@drawable/burger" />
+        app:srcCompat="@drawable/personal_care_2" />
 
     <ImageButton
         android:id="@+id/imageButton8"
-        android:tag="8"
+        android:tag="beverages"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="buttonPress"
@@ -108,11 +108,11 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/imageButton7"
         app:layout_constraintTop_toBottomOf="@+id/imageButton5"
-        app:srcCompat="@drawable/burger" />
+        app:srcCompat="@drawable/beverages_1" />
 
     <ImageButton
         android:id="@+id/imageButton5"
-        android:tag="5"
+        android:tag="snack foods"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="buttonPress"
@@ -121,11 +121,11 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/imageButton4"
         app:layout_constraintTop_toBottomOf="@+id/imageButton2"
-        app:srcCompat="@drawable/burger" />
+        app:srcCompat="@drawable/snack_foods_1" />
 
     <ImageButton
         android:id="@+id/imageButton10"
-        android:tag="10"
+        android:tag="household supplies"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="buttonPress"
@@ -134,11 +134,11 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageButton7"
-        app:srcCompat="@drawable/burger" />
+        app:srcCompat="@drawable/household_supplies_2" />
 
     <ImageButton
         android:id="@+id/imageButton11"
-        android:tag="11"
+        android:tag="past purchases"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="buttonPress"
@@ -147,11 +147,11 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/imageButton10"
         app:layout_constraintTop_toBottomOf="@+id/imageButton8"
-        app:srcCompat="@drawable/burger" />
+        app:srcCompat="@drawable/pastpurchases" />
 
     <ImageButton
         android:id="@+id/imageButton12"
-        android:tag="12"
+        android:tag="my cart"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="buttonPress"
@@ -160,6 +160,6 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/imageButton11"
         app:layout_constraintTop_toBottomOf="@+id/imageButton9"
-        app:srcCompat="@drawable/burger" />
+        app:srcCompat="@drawable/mycart" />
 
 </android.support.constraint.ConstraintLayout>

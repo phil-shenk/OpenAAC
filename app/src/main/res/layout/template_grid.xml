@@ -8,7 +8,7 @@
 
     <ImageButton
         android:id="@+id/imageButton1"
-        android:tag="food"
+        android:tag="1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="buttonPress"
@@ -17,11 +17,13 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/food" />
+        app:srcCompat="@drawable/cheese" />
+
+
 
     <ImageButton
         android:id="@+id/imageButton2"
-        android:tag="a drink"
+        android:tag="2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="buttonPress"
@@ -30,11 +32,11 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/imageButton1"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/drink" />
+        app:srcCompat="@drawable/cheese" />
 
     <ImageButton
         android:id="@+id/imageButton3"
-        android:tag="to play"
+        android:tag="3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="buttonPress"
@@ -47,7 +49,7 @@
 
     <ImageButton
         android:id="@+id/imageButton4"
-        android:tag="to read"
+        android:tag="4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="buttonPress"
@@ -60,7 +62,7 @@
 
     <ImageButton
         android:id="@+id/imageButton5"
-        android:tag="to leave"
+        android:tag="5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="buttonPress"
@@ -73,7 +75,7 @@
 
     <ImageButton
         android:id="@+id/imageButton6"
-        android:tag="to stop"
+        android:tag="6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="buttonPress"
@@ -85,7 +87,7 @@
         app:srcCompat="@drawable/cheese" />
     <ImageButton
         android:id="@+id/imageButton7"
-        android:tag="a jacket"
+        android:tag="7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="buttonPress"
@@ -98,7 +100,7 @@
 
     <ImageButton
         android:id="@+id/imageButton8"
-        android:tag="more"
+        android:tag="8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="buttonPress"
@@ -111,7 +113,7 @@
 
     <ImageButton
         android:id="@+id/imageButton9"
-        android:tag="less"
+        android:tag="9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="buttonPress"
@@ -125,7 +127,7 @@
 
     <ImageButton
         android:id="@+id/imageButton10"
-        android:tag="medicine"
+        android:tag="10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="buttonPress"
@@ -138,7 +140,7 @@
 
     <ImageButton
         android:id="@+id/imageButton11"
-        android:tag="to chat"
+        android:tag="11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="buttonPress"
@@ -151,7 +153,7 @@
 
     <ImageButton
         android:id="@+id/imageButton12"
-        android:tag="a hug"
+        android:tag="12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:scaleType="fitXY"

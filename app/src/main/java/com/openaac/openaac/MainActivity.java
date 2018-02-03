@@ -37,30 +37,22 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = null;
         switch(v.getTag().toString()){
             case "shop":
-                System.out.println("SHOP BUTTON PRESSED");
+                Speech2.addWordToQueue("I'd like to buy");
                 intent = new Intent(this, ShopMenu.class);
                 break;
             case "i_want":
-                System.out.println("I WANT");
+                Speech2.addWordToQueue("I want");
                 intent = new Intent(this, IWantMenu.class);
                 break;
             case "i_feel":
-                System.out.println("I FEEL BUTTON PRESSED");
+                Speech2.addWordToQueue("I feel");
                 intent = new Intent(this, IFeelMenu.class);
                 break;
             case "words":
-                System.out.println("WORDS BUTTON PRESSED");
                 intent = new Intent(this, WordsMenu.class);
                 break;
-            case "yes":
-                Speech2.addWordToQueue("yes");
-                break;
-            case "no":
-                Speech2.tts.speak(Speech2.words,TextToSpeech.QUEUE_ADD, null);
-                Speech2.words = "";
-                break;
             default:
-                Speech2.addWordToQueue("placeholder");
+                Speech2.immedatelySay(v.getTag().toString());
                 intent = null;
                 break;
         }
