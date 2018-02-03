@@ -8,27 +8,40 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-
         android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBIl5uenNZo9d1tyXEpibl3a_9U58XwQn" />
 
-        <activity android:name=".MainActivity"
+        <activity
+            android:name=".MainActivity"
             android:screenOrientation="portrait">
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ShopMenu"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".IWantMenu"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".IFeelMenu"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".WordsMenu"
-            android:screenOrientation="portrait"/>
-
+        <activity
+            android:name=".ShopMenu"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".IWantMenu"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".IFeelMenu"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".WordsMenu"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Nearby"
+            android:label="@string/title_activity_nearby"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NearbyStuff"
+            android:label="@string/title_activity_nearby_stuff"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

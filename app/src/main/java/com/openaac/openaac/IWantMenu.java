@@ -23,7 +23,8 @@ public class IWantMenu extends AppCompatActivity {
 
     @Override
     public void onBackPressed() {
-        super.onBackPressed();
         Speech2.clearQueue();
+        super.onBackPressed();
+
     }
 }

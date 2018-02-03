@@ -25,7 +25,7 @@ public class IFeelMenu extends AppCompatActivity {
 
     @Override
     public void onBackPressed() {
-        super.onBackPressed();
         Speech2.clearQueue();
+        super.onBackPressed();
     }
 }

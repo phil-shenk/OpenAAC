@@ -1,5 +1,6 @@
 package com.openaac.openaac;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -15,7 +16,6 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.lang.reflect.Array;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -81,6 +81,39 @@ public class NearbyStuff extends AppCompatActivity {
             public void onClick(View view) {
                 Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
+            }
+        });
+
+        ((Button) findViewById(R.id.nearby1)).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Speech2.addWordToQueue((((Button) findViewById(R.id.nearby1)).getText()).toString());
+                Speech2.sayQueue();
+                startActivity(new Intent(view.getContext(), MainActivity.class));
+            }
+        });
+        ((Button) findViewById(R.id.nearby2)).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Speech2.addWordToQueue((((Button) findViewById(R.id.nearby2)).getText()).toString());
+                Speech2.sayQueue();
+                startActivity(new Intent(view.getContext(), MainActivity.class));
+            }
+        });
+        ((Button) findViewById(R.id.nearby3)).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Speech2.addWordToQueue((((Button) findViewById(R.id.nearby3)).getText()).toString());
+                Speech2.sayQueue();
+                startActivity(new Intent(view.getContext(), MainActivity.class));
+            }
+        });
+        ((Button) findViewById(R.id.nearby4)).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Speech2.addWordToQueue((((Button) findViewById(R.id.nearby4)).getText()).toString());
+                Speech2.sayQueue();
+                startActivity(new Intent(view.getContext(), MainActivity.class));
             }
         });
 

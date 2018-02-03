@@ -51,6 +51,10 @@ public class MainActivity extends AppCompatActivity {
             case "words":
                 intent = new Intent(this, WordsMenu.class);
                 break;
+            case "Nearby Places":
+                Speech2.addWordToQueue("I want to go to");
+                intent = new Intent(this, NearbyStuff.class);
+                break;
             default:
                 Speech2.immedatelySay(v.getTag().toString());
                 intent = null;
