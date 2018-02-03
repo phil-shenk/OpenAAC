@@ -19,7 +19,7 @@ public class Speech2 {
     }
 
     public static void immedatelySay(String word){
-        tts.speak(word, TextToSpeech.QUEUE_FLUSH, null);
+        tts.speak(word, TextToSpeech.QUEUE_ADD, null);
     }
 
     public static void clearQueue(){

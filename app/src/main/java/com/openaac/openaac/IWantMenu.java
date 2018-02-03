@@ -12,6 +12,7 @@ public class IWantMenu extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_iwant_menu);
+        Speech2.addWordToQueue("I want");
     }
 
     public void buttonPress(View v){

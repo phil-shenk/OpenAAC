@@ -11,6 +11,7 @@ public class ShopMenu extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_shop_menu);
+        Speech2.addWordToQueue("I'd like to buy");
     }
 
     public void buttonPress(View v){

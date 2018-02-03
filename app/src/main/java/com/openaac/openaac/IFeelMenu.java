@@ -14,9 +14,11 @@ public class IFeelMenu extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ifeel_menu);
+
     }
 
     public void buttonPress(View v){
+        Speech2.addWordToQueue("I feel");
         Speech2.addWordToQueue(v.getTag().toString());
         Speech2.sayQueue();
         startActivity(new Intent(this, MainActivity.class));
