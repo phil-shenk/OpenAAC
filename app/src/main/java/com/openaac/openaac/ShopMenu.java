@@ -18,4 +18,10 @@ public class ShopMenu extends AppCompatActivity {
         Speech2.sayQueue();
         startActivity(new Intent(this, MainActivity.class));
     }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        Speech2.clearQueue();
+    }
 }

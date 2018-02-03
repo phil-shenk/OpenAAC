@@ -17,7 +17,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/cheese" />
+        app:srcCompat="@drawable/you" />
 
     <ImageButton
         android:id="@+id/imageButton3"
@@ -30,7 +30,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/imageButton2"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/thecount" />
+        app:srcCompat="@drawable/hello" />
 
     <ImageButton
         android:id="@+id/imageButton7"
@@ -43,7 +43,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageButton4"
-        app:srcCompat="@drawable/thecount" />
+        app:srcCompat="@drawable/why" />
 
     <ImageButton
         android:id="@+id/imageButton6"
@@ -56,7 +56,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/imageButton5"
         app:layout_constraintTop_toBottomOf="@+id/imageButton3"
-        app:srcCompat="@drawable/thecount" />
+        app:srcCompat="@drawable/there" />
 
     <ImageButton
         android:id="@+id/imageButton2"
@@ -69,7 +69,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/imageButton1"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/thecount" />
+        app:srcCompat="@drawable/me" />
 
     <ImageButton
         android:id="@+id/imageButton4"
@@ -82,7 +82,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageButton1"
-        app:srcCompat="@drawable/thecount" />
+        app:srcCompat="@drawable/that" />
 
     <ImageButton
         android:id="@+id/imageButton9"
@@ -95,7 +95,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/imageButton8"
         app:layout_constraintTop_toBottomOf="@+id/imageButton6"
-        app:srcCompat="@drawable/thecount" />
+        app:srcCompat="@drawable/what" />
 
     <ImageButton
         android:id="@+id/imageButton8"
@@ -108,11 +108,11 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/imageButton7"
         app:layout_constraintTop_toBottomOf="@+id/imageButton5"
-        app:srcCompat="@drawable/thecount" />
+        app:srcCompat="@drawable/who" />
 
     <ImageButton
         android:id="@+id/imageButton5"
-        android:tag="goodbye"
+        android:tag="bye"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="buttonPress"
@@ -121,7 +121,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/imageButton4"
         app:layout_constraintTop_toBottomOf="@+id/imageButton2"
-        app:srcCompat="@drawable/thecount" />
+        app:srcCompat="@drawable/bye" />
 
     <ImageButton
         android:id="@+id/imageButton10"
@@ -134,7 +134,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageButton7"
-        app:srcCompat="@drawable/thecount" />
+        app:srcCompat="@drawable/when" />
 
     <ImageButton
         android:id="@+id/imageButton11"
@@ -147,7 +147,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/imageButton10"
         app:layout_constraintTop_toBottomOf="@+id/imageButton8"
-        app:srcCompat="@drawable/thecount" />
+        app:srcCompat="@drawable/where" />
 
     <ImageButton
         android:id="@+id/imageButton12"
@@ -160,6 +160,6 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/imageButton11"
         app:layout_constraintTop_toBottomOf="@+id/imageButton9"
-        app:srcCompat="@drawable/thecount" />
+        app:srcCompat="@drawable/please" />
 
 </android.support.constraint.ConstraintLayout>

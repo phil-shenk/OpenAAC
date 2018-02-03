@@ -39,7 +39,6 @@ public class MainActivity extends AppCompatActivity {
             case "shop":
                 Speech2.addWordToQueue("I'd like to buy");
                 intent = new Intent(this, ShopMenu.class);
-
                 break;
             case "i_want":
                 Speech2.addWordToQueue("I want");
@@ -59,6 +58,12 @@ public class MainActivity extends AppCompatActivity {
         }
         if(intent != null)
             startActivity(intent);
+    }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        Speech2.clearQueue();
     }
 
 }

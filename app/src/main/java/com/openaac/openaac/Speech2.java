@@ -39,4 +39,6 @@ public class Speech2 {
        // imageView.setImageResource(words);
     }
 
+
+
 }

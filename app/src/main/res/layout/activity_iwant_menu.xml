@@ -43,7 +43,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/imageButton2"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/cheese" />
+        app:srcCompat="@drawable/play" />
 
     <ImageButton
         android:id="@+id/imageButton4"
@@ -69,7 +69,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/imageButton4"
         app:layout_constraintTop_toBottomOf="@+id/imageButton2"
-        app:srcCompat="@drawable/cheese" />
+        app:srcCompat="@drawable/leave" />
 
     <ImageButton
         android:id="@+id/imageButton6"
@@ -82,7 +82,8 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/imageButton5"
         app:layout_constraintTop_toBottomOf="@+id/imageButton3"
-        app:srcCompat="@drawable/cheese" />
+        app:srcCompat="@drawable/stop" />
+
     <ImageButton
         android:id="@+id/imageButton7"
         android:tag="a jacket"
@@ -94,7 +95,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageButton4"
-        app:srcCompat="@drawable/cheese" />
+        app:srcCompat="@drawable/jacket" />
 
     <ImageButton
         android:id="@+id/imageButton8"
@@ -134,7 +135,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageButton7"
-        app:srcCompat="@drawable/cheese" />
+        app:srcCompat="@drawable/medicine" />
 
     <ImageButton
         android:id="@+id/imageButton11"
@@ -147,7 +148,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/imageButton10"
         app:layout_constraintTop_toBottomOf="@+id/imageButton8"
-        app:srcCompat="@drawable/cheese" />
+        app:srcCompat="@drawable/chat" />
 
     <ImageButton
         android:id="@+id/imageButton12"
