@@ -33,12 +33,13 @@ public class MainActivity extends AppCompatActivity {
                 intent = new Intent(this, BurgerMenu.class);
                 break;
             default:
-                intent = new Intent(this, MainActivity.class);
+                intent = null;
         }
 
         //EditText editText = (EditText) findViewById(R.id.editText);
         //String message = editText.getText().toString();
         //intent.putExtra(EXTRA_MESSAGE, "TEST");
-        startActivity(intent);
+        if(intent != null)
+            startActivity(intent);
     }
 }
