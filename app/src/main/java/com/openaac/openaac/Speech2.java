@@ -1,8 +1,10 @@
 package com.openaac.openaac;
 
 import android.speech.tts.TextToSpeech;
+import android.widget.ImageView;
 
 import org.w3c.dom.Text;
+
 
 /**
  * Created by Phil on 2/3/2018.
@@ -29,6 +31,12 @@ public class Speech2 {
     public static void sayQueue(){
         tts.speak(words, TextToSpeech.QUEUE_ADD, null);
         clearQueue();
+    }
+
+    public static void updateQueueDisplay() {
+        //ImageView imageView = (ImageView) findViewById(R.id.textView2);
+
+       // imageView.setImageResource(words);
     }
 
 }

@@ -37,12 +37,16 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = null;
         switch(v.getTag().toString()){
             case "shop":
+                Speech2.addWordToQueue("I'd like to buy");
                 intent = new Intent(this, ShopMenu.class);
+
                 break;
             case "i_want":
+                Speech2.addWordToQueue("I want");
                 intent = new Intent(this, IWantMenu.class);
                 break;
             case "i_feel":
+                Speech2.addWordToQueue("I feel");
                 intent = new Intent(this, IFeelMenu.class);
                 break;
             case "words":
