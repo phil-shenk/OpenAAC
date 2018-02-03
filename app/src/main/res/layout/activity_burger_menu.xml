@@ -4,11 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.openaac.openaac.MainActivity">
+    tools:context="com.openaac.openaac.BurgerMenu">
 
     <ImageButton
         android:id="@+id/imageButton1"
-        android:tag="burger"
+        android:tag="1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="buttonPress"
@@ -21,7 +21,7 @@
 
     <ImageButton
         android:id="@+id/imageButton3"
-        android:tag="cheese"
+        android:tag="3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="buttonPress"
@@ -30,11 +30,11 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/imageButton2"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/cheese" />
+        app:srcCompat="@drawable/burger" />
 
     <ImageButton
         android:id="@+id/imageButton7"
-        android:tag="placeholder"
+        android:tag="7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="buttonPress"
@@ -43,11 +43,11 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageButton4"
-        app:srcCompat="@drawable/knuckles" />
+        app:srcCompat="@drawable/burger" />
 
     <ImageButton
         android:id="@+id/imageButton6"
-        android:tag="placeholder"
+        android:tag="6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="buttonPress"
@@ -56,11 +56,11 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/imageButton5"
         app:layout_constraintTop_toBottomOf="@+id/imageButton3"
-        app:srcCompat="@drawable/knuckles" />
+        app:srcCompat="@drawable/burger" />
 
     <ImageButton
         android:id="@+id/imageButton2"
-        android:tag="placeholder"
+        android:tag="2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="buttonPress"
@@ -69,11 +69,11 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/imageButton1"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/knuckles" />
+        app:srcCompat="@drawable/burger" />
 
     <ImageButton
         android:id="@+id/imageButton4"
-        android:tag="placeholder"
+        android:tag="4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="buttonPress"
@@ -82,11 +82,11 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageButton1"
-        app:srcCompat="@drawable/knuckles" />
+        app:srcCompat="@drawable/burger" />
 
     <ImageButton
         android:id="@+id/imageButton9"
-        android:tag="placeholder"
+        android:tag="9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="buttonPress"
@@ -95,11 +95,11 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/imageButton8"
         app:layout_constraintTop_toBottomOf="@+id/imageButton6"
-        app:srcCompat="@drawable/knuckles" />
+        app:srcCompat="@drawable/burger" />
 
     <ImageButton
         android:id="@+id/imageButton8"
-        android:tag="placeholder"
+        android:tag="8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="buttonPress"
@@ -108,11 +108,11 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/imageButton7"
         app:layout_constraintTop_toBottomOf="@+id/imageButton5"
-        app:srcCompat="@drawable/knuckles" />
+        app:srcCompat="@drawable/burger" />
 
     <ImageButton
         android:id="@+id/imageButton5"
-        android:tag="placeholder"
+        android:tag="5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="buttonPress"
@@ -121,11 +121,11 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/imageButton4"
         app:layout_constraintTop_toBottomOf="@+id/imageButton2"
-        app:srcCompat="@drawable/knuckles" />
+        app:srcCompat="@drawable/burger" />
 
     <ImageButton
         android:id="@+id/imageButton10"
-        android:tag="placeholder"
+        android:tag="10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="buttonPress"
@@ -134,11 +134,11 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageButton7"
-        app:srcCompat="@drawable/knuckles" />
+        app:srcCompat="@drawable/burger" />
 
     <ImageButton
         android:id="@+id/imageButton11"
-        android:tag="placeholder"
+        android:tag="11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="buttonPress"
@@ -147,11 +147,11 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/imageButton10"
         app:layout_constraintTop_toBottomOf="@+id/imageButton8"
-        app:srcCompat="@drawable/knuckles" />
+        app:srcCompat="@drawable/burger" />
 
     <ImageButton
         android:id="@+id/imageButton12"
-        android:tag="placeholder"
+        android:tag="12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="buttonPress"
@@ -160,7 +160,6 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/imageButton11"
         app:layout_constraintTop_toBottomOf="@+id/imageButton9"
-        app:srcCompat="@drawable/knuckles" />
-
+        app:srcCompat="@drawable/burger" />
 
 </android.support.constraint.ConstraintLayout>

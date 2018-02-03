@@ -22,7 +22,18 @@ public class MainActivity extends AppCompatActivity {
     public void buttonPress(View v) {
         // Do something in response to button
         Log.d("msg", v.getTag().toString());
-        Intent intent = new Intent(this, SubMenu1.class);
+        Intent intent;
+        switch(v.getTag().toString()){
+            case "burger":
+                intent = new Intent(this, BurgerMenu.class);
+                break;
+            case "cheese":
+                intent = new Intent(this, CheeseMenu.class);
+                break;
+            default:
+                intent = new Intent(this, MainActivity.class);
+        }
+
         //EditText editText = (EditText) findViewById(R.id.editText);
         //String message = editText.getText().toString();
         //intent.putExtra(EXTRA_MESSAGE, "TEST");
