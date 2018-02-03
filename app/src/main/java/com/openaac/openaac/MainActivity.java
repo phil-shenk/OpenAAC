@@ -25,9 +25,11 @@ public class MainActivity extends AppCompatActivity {
         Intent intent;
         switch(v.getTag().toString()){
             case "cheese":
+                System.out.println("CHEESEBUTTON");
                 intent = new Intent(this, CheeseMenu.class);
                 break;
             case "burger":
+                System.out.println("BURGERBUTTON");
                 intent = new Intent(this, BurgerMenu.class);
                 break;
             default:

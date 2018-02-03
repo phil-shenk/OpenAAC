@@ -9,7 +9,7 @@ public class BurgerMenu extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_cheese_menu);
+        setContentView(R.layout.activity_burger_menu);
     }
 
     public void buttonPress(View v){
