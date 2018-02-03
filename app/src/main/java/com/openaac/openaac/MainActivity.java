@@ -64,7 +64,6 @@ public class MainActivity extends AppCompatActivity {
                 intent = null;
                 break;
         }
-        System.out.println("words: "+Speech2.words);
 
         if(intent != null)
             startActivity(intent);

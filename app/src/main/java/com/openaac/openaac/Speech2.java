@@ -12,6 +12,7 @@ public class Speech2 {
     public static String words = "";
     public static void addWordToQueue(String word) {
         words += " " + word;
+        System.out.println("WORDS: "+words);
     }
 
 }
