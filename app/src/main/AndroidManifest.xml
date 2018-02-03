@@ -12,12 +12,13 @@
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".BurgerMenu"></activity>
-        <activity android:name=".CheeseMenu"></activity>
+        <activity android:name=".ShopMenu"></activity>
+        <activity android:name=".IWantMenu"></activity>
+        <activity android:name=".IFeelMenu"></activity>
+        <activity android:name=".WordsMenu"></activity>
 
     </application>
 

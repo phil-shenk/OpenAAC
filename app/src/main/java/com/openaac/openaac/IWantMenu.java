@@ -1,15 +1,15 @@
 package com.openaac.openaac;
 
-import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
 import android.view.View;
 
-public class BurgerMenu extends AppCompatActivity {
+public class IWantMenu extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_burger_menu);
+        setContentView(R.layout.activity_iwant_menu);
     }
 
     public void buttonPress(View v){

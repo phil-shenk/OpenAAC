@@ -8,6 +8,8 @@ import android.view.SubMenu;
 import android.view.View;
 import android.widget.EditText;
 
+import java.util.IllegalFormatException;
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -24,13 +26,21 @@ public class MainActivity extends AppCompatActivity {
         Log.d("msg", v.getTag().toString());
         Intent intent;
         switch(v.getTag().toString()){
-            case "cheese":
-                System.out.println("CHEESEBUTTON");
-                intent = new Intent(this, CheeseMenu.class);
+            case "shop":
+                System.out.println("SHOP BUTTON PRESSED");
+                intent = new Intent(this, ShopMenu.class);
                 break;
-            case "burger":
-                System.out.println("BURGERBUTTON");
-                intent = new Intent(this, BurgerMenu.class);
+            case "i_want":
+                System.out.println("I WANT");
+                intent = new Intent(this, IWantMenu.class);
+                break;
+            case "i_feel":
+                System.out.println("I FEEL BUTTON PRESSED");
+                intent = new Intent(this, IFeelMenu.class);
+                break;
+            case "words":
+                System.out.println("WORDS BUTTON PRESSED");
+                intent = new Intent(this, WordsMenu.class);
                 break;
             default:
                 intent = null;
