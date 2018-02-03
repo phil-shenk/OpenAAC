@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
             default:
                 intent = new Intent(this, MainActivity.class);
         }
-
+        intent = new Intent(this, MainActivity.class);
         //EditText editText = (EditText) findViewById(R.id.editText);
         //String message = editText.getText().toString();
         //intent.putExtra(EXTRA_MESSAGE, "TEST");
